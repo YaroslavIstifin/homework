@@ -1,0 +1,27 @@
+.one {
+    font-family: "Open Sans", serif;
+    font-weight: 300;
+    line-height: 20px;
+    font-size: 20px;
+    font-style: italic;
+}
+
+.two {
+    text-decoration: line-through;
+}
+
+.three {
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.four {
+    word-spacing: 30px;
+    text-decoration: wavy;
+    color: blueviolet;
+}
+
+.five {
+    letter-spacing: 5px;
+    text-decoration: double;
+}
