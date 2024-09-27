@@ -1,0 +1,238 @@
+body {
+    background: #181E34;
+    font-family: "Montserrat", "Arial", sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    color: #fff;
+}
+
+.container {
+    max-width: 930px;
+    margin: 0 auto;
+    padding: 0 15px;
+    height: 100%;
+}
+
+/* ==================================================== */
+.header {
+    padding: 30px 0 36px;
+}
+
+.header-inner {
+    display: flex;
+    align-items: center;
+}
+
+.header-nav {
+    margin-left: auto;
+}
+
+.header-list {
+    display: flex;
+}
+
+.header-bottom {
+    border-radius: 100px;
+    padding: 14px 30px;
+    width: 113px;
+    height: 48px;
+    background: #fff;
+    font: 500 16px "Montserrat", sans-serif;
+    color: #2766ae;
+}
+
+.header-item {
+    margin-right: 30px;
+}
+
+/* ======================================================= */
+.hero {
+    padding: 120px 0;
+    background: url(../img/hero-bg.jpg) 10% 50%/cover no-repeat;
+}
+
+.hero-title {
+    font: 600 40px "Montserrat", sans-serif;
+    text-transform: uppercase;
+    color: #fff;
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.hero-inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.hero-text {
+    max-width: 436px;
+}
+
+.paragraphy {
+    margin-bottom: 15px;
+}
+
+.hero-text span {
+    font: 700 16px "Montserrat", sans-serif;
+    text-transform: uppercase;
+    color: #01a2cb;
+}
+
+.hero-buttons {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 320px;
+    display: flex;
+    justify-content: center;
+}
+
+.hero-buton-one,
+.hero-buton-two {
+    border-radius: 100px;
+    padding: 18px 30px;
+    max-width: 320px;
+    height: 56px;
+}
+
+.hero-buton-one {
+    background: linear-gradient(180deg, #00a4cc 0%, #2766ae 100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.margin-bottom {
+    margin-bottom: 10px;
+}
+
+.hero-buton-two {
+    background: linear-gradient(129deg, #00a4cc 0%, #2766ae 100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    gap: 4px;
+}
+
+.hero-buton-two img {
+    margin-left: 4px;
+}
+
+/* ========================================================================= */
+.cards {
+    padding: 120px 0;
+}
+
+.cards-title {
+    font: 600 40px "Montserrat", sans-serif;
+    text-transform: uppercase;
+    color: #fff;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.cards-text {
+    text-align: center;
+    padding-bottom: 30px;
+    max-width: 513px;
+    margin: 0 auto 60px;
+}
+
+.cards-flex {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: -28px;
+    margin: 0 -14px;
+    padding-bottom: 38px;
+}
+
+.cards-flex-item {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+    gap: 10px;
+    border: 2px solid #176bae;
+    border-radius: 16px;
+    padding: 28px;
+    width: 204px;
+    height: 141px;
+    box-shadow: 4px 4px 13px 0 rgba(5, 13, 41, 0.76);
+    background: #197cb8;
+    margin-bottom: 28px;
+    flex: 0 0 25%;
+    padding: 28px 15px;
+}
+
+.cards-flex-inner {
+    margin-bottom: 28px;
+    flex: 0 0 25%;
+    padding: 0 14px;
+}
+
+.cards-flex-title {
+    font: 600 22px "Montserrat", sans-serif;
+    text-transform: uppercase;
+    color: #fff;
+    text-align: center;
+}
+
+.cards-flex-text {
+    text-align: center;
+}
+
+.cards-buton {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    gap: 10px;
+    border-radius: 100px;
+    padding: 18px 30px;
+    width: 436px;
+    height: 56px;
+    background: linear-gradient(180deg, #00a4cc 0%, #2766ae 100%);
+    margin: 0 auto;
+}
+
+/* ============================================================ */
+.footer {
+    border-top: 1px solid #323952;
+    padding: 60px 0;
+}
+
+.footer-inner {
+    display: flex;
+}
+
+.footer-desc {
+    max-width: 267px;
+    margin-right: auto;
+}
+
+.footer-desc a {
+    display: inline-block;
+    margin-bottom: 15px;
+}
+.footer-col{
+    max-width: 204px;
+    width: 100%;
+}
+
+.footer-title {
+    font: 600 22px "Montserrat", sans-serif;
+    text-transform: uppercase;
+    color: #fff;
+    margin-bottom: 20px;
+}
+.footer-item{
+    margin-bottom: 10px;
+}
+.footer-col-margin{
+    margin-right: 28px;
+}
