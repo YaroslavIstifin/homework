@@ -1,0 +1,51 @@
+body {
+    background: #3a3939;
+}
+
+@font-face {
+    font-family: 'Playfair Display';
+    src: local('Playfair Display Medium'), local('PlayfairDisplay-Medium'),
+        url('PlayfairDisplay-Medium.woff2') format('woff2'),
+        url('PlayfairDisplay-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+.text {
+    color: #fff;
+    font-family: Playfair Display serif;
+    font-size: 35px;
+}
+.inner{
+    display: flex;
+    justify-content:end;
+    height: 1000px;
+}
+
+.fix {
+    display: flex;
+    min-height: 100px;
+    max-width: 100%;
+    background: #fff;
+    border-radius: 10px;
+    position: relative;
+    position: fixed;
+    left: 50%;
+    right: 50px;
+    bottom: 100px; 
+    ;
+}
+
+
+
+.circle {
+    display: flex;
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    background: #ff0202;
+    position:absolute;
+    bottom:50px;
+    left: 10%;
+}
