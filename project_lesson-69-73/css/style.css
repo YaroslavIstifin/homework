@@ -288,7 +288,7 @@ body {
     align-items: center;
     color: #f8fcff;
     transform: translateY(100%);
-    transition-duration: 0.5s;
+    transition-duration: 1s;
 }
 
 .gallery__hover-small:hover .gallery__hint {
@@ -325,7 +325,7 @@ body {
     align-items: center;
     color: #f8fcff;
     transform: translateY(100%);
-    transition-duration: 0.5s;
+    transition-duration: 1s;
 }
 
 .gallery__watch-list {
