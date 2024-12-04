@@ -1,0 +1,114 @@
+.footer__inner {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer__item {
+    padding: 30px;
+}
+
+.footer__link {
+    font-family: var(--second-family);
+    font-weight: 400;
+    font-size: 14px;
+    text-decoration: underline;
+    text-decoration-skip-ink: none;
+}
+
+
+
+
+
+
+/* ===================== */
+/* ===================== */
+/* ===================== */
+/* ===================== */
+
+<swiper-slide class="item">
+<div class="item__img">
+    <img src="img/decor/feedback_igor.jpg" alt="Игорь">
+</div>
+<div class="item__content">
+    <p class="item__name">Игорь</p>
+    <p class="item__city">Красногорск</p>
+    <p class="item__text">Я всегда боюсь газа , а особенно боюсь что он может
+        взорваться, как же мне помог Андрей водитель-экспедитор показал что
+        бояться
+        тут
+        нечего и самое главное моего присутствие даже не понадобится. Спасибо
+        компании
+        за то что они все закрыли этот вопрос под ключ.</p>
+    </div>
+
+</swiper-slide>
+
+
+
+<swiper-slide class="item">
+<div class="item__img">
+    <img src="img/decor/feedback_alex.jpg" alt="Елизавета">
+</div>
+<div class="item__content">
+    <p class="item__name">Александра И.</p>
+    <p class="item__city">Красногорск</p>
+    <p class="item__text">Я всегда боюсь газа , а особенно боюсь что он может
+        взорваться, как же мне помог Андрей водитель-экспедитор показал что
+        бояться
+        тут
+        нечего и самое главное моего присутствие даже не понадобится. Спасибо
+        компании
+        за то что они все закрыли этот вопрос под ключ.</p>
+</div>
+</swiper-slide>
+
+
+
+
+<swiper-slide >
+<div class="item">
+    <div class="item__img">
+        <img src="img/decor/feedback_elizaveta.jpg" alt="Елизавета">
+    </div>
+    <div class="item__content">
+        <p class="item__name">Виктория И.</p>
+        <p class="item__city">Красногорск</p>
+        <p class="item__text">Я всегда боюсь газа , а особенно боюсь что он может
+            взорваться, как же мне помог Андрей водитель-экспедитор показал что
+            бояться
+            тут
+            нечего и самое главное моего присутствие даже не понадобится. Спасибо
+            компании
+            за то что они все закрыли этот вопрос под ключ.</p>
+    </div>
+</div>
+</swiper-slide>
+
+
+
+
+
+<div class="item">
+<div class="item__img">
+    <img src="img/decor/feedback-img1.jpg" alt="Ольга">
+</div>
+<div class="item__content">
+    <p class="item__name">Ольга И.</p>
+    <p class="item__city">Красногорск</p>
+    <p class="item__text">Я всегда боюсь газа , а особенно боюсь что он может
+        взорваться, как же мне помог Андрей водитель-экспедитор показал что
+        бояться
+        тут
+        нечего и самое главное моего присутствие даже не понадобится. Спасибо
+        компании
+        за то что они все закрыли этот вопрос под ключ.</p>
+</div>
+
+</div>
+</swiper-slide>
+
+
+
+
+
+
